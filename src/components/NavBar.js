@@ -28,7 +28,7 @@ function NavBar() {
     </div>
   </div>
 </nav>
-    </div>
+    </div>  
   );
 }
 
