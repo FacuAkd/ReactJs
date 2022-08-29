@@ -18,11 +18,18 @@ function ItemCount(){
         
     };
 
+    const resetear = () =>{
+        if(Count>0){
+            setCount(Count -Count);
+        }
+    }
+
     return(
         <div>
             <h2>Contador: {Count}</h2>
             <button onClick= {sumador} >Suma</button>
             <button onClick= {resta} >Resta</button>
+            <button onClick= {resetear} >Reset</button>
         </div>
     );
 }
