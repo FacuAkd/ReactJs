@@ -1,10 +1,10 @@
 import { Component } from "react";
-import imagenes from "../Imagenes/images.png";
+import imagenes from "./Imagenes/images.jfif";
 
 class CardWidget extends Component{
     render(){
         return(
-            <img src={imagenes} width="30" height="30"></img>
+            <img src={imagenes} width="300" height="30"></img>
         )
     }
 }
